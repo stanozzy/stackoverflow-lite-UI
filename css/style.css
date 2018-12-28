@@ -1,0 +1,225 @@
+#topbar{
+    width: auto;
+    margin: 0 auto;
+    height: 100px;
+    background-color: #AE9D55
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+#logo{
+    height: 100px;
+    float: left;
+    padding-left: 0
+}
+body{
+    font-family: 'Dosis', 'Roboto',sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/bg1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+hr{
+    
+    border: 3px solid #AE9D55;
+    
+    
+}
+
+.sidebar{
+    width: 13%;
+    height: 100%;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.45);
+
+}
+
+.bar-item{
+    font-size: 22px;
+    
+}
+
+.page-title{
+    color: #AE9D55;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.question-title{
+    text-decoration: underline;
+    font-size: 145%;    
+}
+
+.question-title:hover{
+    color: #e2c196;
+}
+
+.question-container{
+    background: rgba(239, 224, 162, 0.2);
+    
+    width: 85%;
+    float: right;
+    padding-left: 20px;
+    margin-top: 7px;
+}
+.attribs{
+    font-style: italic;
+    float: right;
+    font-size: 85%;
+    background-color: rgba(174, 157, 85, 0.31);
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.login-container{
+    width: 460px;
+    padding: 10% 0 0;
+    margin: 0 auto;
+}
+.form{
+    position: relative;
+    z-index: 1;
+    background: rgba(0,0,0,0.4);
+    max-width: 460px;
+    margin:  0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    
+}
+
+.form input{
+    font-family: "Dosis", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+.form button{
+    font-family: "Dosis", sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    outline: 0;
+    background: #AE9D55;
+    color: white;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.form button:hover, .form button:active{
+    background: #AE9D15;
+}
+
+.question{
+    height: 30vh;
+    width: 99%;
+    background: rgba(255, 255, 255, 0.81);
+}
+
+.ask-button{
+    width: 150px;
+    height: auto;
+    font-family: "Dosis", sans-serif;
+    font-size: 17px;
+    outline: 0;
+    background: #AE9D55;
+    color: white;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.ask-button:hover, ask-button:active {
+    text-transform: uppercase;
+    background: #AE9D15;
+}
+.ask-container{
+    background: rgba(239, 224, 162, 0.2);    
+    width: 60%;
+    padding: 10% 0 0;
+    margin: 0 auto;
+}
+.ask-container input{
+    font-family: "Dosis", sans-serif;
+    color: black;
+    outline: 1;
+    background: rgba(255, 255, 255, 0.81);
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+#cancelbtn{
+    font-family: "Dosis", sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgba(149, 12, 12, 0.76);
+    color: white;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    cursor: pointer;    
+}
+
+#cancelbtn a:hover{
+    text-decoration: none
+}
+
+#cancelbtn:hover, #cancelbtn:active{
+    background: rgba(219, 21, 21, 0.92);
+}
+
+.response-container{
+    background: rgba(239, 224, 162, 0.2);    
+    width: 83%;
+    float: right;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    margin-top: 7px;
+}
+
+.my-ans{
+    height: 150px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.81);
+}
+
+.submit-ans{
+    width: 40%;
+    height: auto;
+    font-family: "Dosis", sans-serif;
+    font-size: 17px;
+    outline: 0;
+    background: #AE9D55;
+    color: white;
+    border: 0;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.submit-ans:active, .submit-ans:hover{
+    background-color: #AE9D15;
+    text-transform: uppercase;
+}
