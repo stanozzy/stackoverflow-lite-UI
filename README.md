@@ -1,7 +1,7 @@
 # StackOverflow-Lite-UI
 UI for StackOverflow-lite where people can ask questions and provide answers.
 
-StackOverflowLite-UI is a static site with no functionality. The project is managed with a Pivotal tracker board. [View the board here](https://www.pivotaltracker.com/n/projects/2233906)
+StackOverflowLite-UI is simply the UI with no functionality. The project is managed with a Pivotal tracker board. [View the board here](https://www.pivotaltracker.com/n/projects/2233906)
 
 # Required Features
 -----------------------
