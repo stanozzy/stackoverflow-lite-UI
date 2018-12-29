@@ -2,7 +2,7 @@
     width: auto;
     margin: 0 auto;
     height: 100px;
-    background-color: #AE9D55
+    background-color: rgba(174, 157, 85, 0.66)
 }
 
 
@@ -24,11 +24,7 @@ a:hover{
 }
 body{
     font-family: 'Dosis', 'Roboto',sans-serif;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/bg1.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-color: black;
     color: #ffffff;
 }
 hr{
@@ -84,17 +80,16 @@ hr{
 }
 
 .login-container{
-    width: 460px;
+    width: 60%;
     padding: 10% 0 0;
     margin: 0 auto;
 }
 .form{
     position: relative;
     z-index: 1;
-    background: rgba(0,0,0,0.4);
-    max-width: 460px;
-    margin:  0 auto 100px;
-    padding: 45px;
+    background: rgba(174, 157, 85, 0.1);
+    max-width: 100%
+    margin:  0 auto;
     text-align: center;
     
 }
@@ -103,7 +98,7 @@ hr{
     font-family: "Dosis", sans-serif;
     outline: 1;
     background: #f2f2f2;
-    width: 100%;
+    width: 75%;
     border: 0;
     margin: 0 0 15px;
     padding: 15px;
@@ -118,7 +113,7 @@ hr{
     outline: 0;
     background: #AE9D55;
     color: white;
-    width: 100%;
+    width: 75%;
     border: 0;
     padding: 15px;
     cursor: pointer;
@@ -177,7 +172,7 @@ hr{
     outline: 0;
     background: rgba(149, 12, 12, 0.76);
     color: white;
-    width: 100%;
+    width: 75;
     border: 0;
     padding: 15px;
     cursor: pointer;    
@@ -223,3 +218,53 @@ hr{
     background-color: #AE9D15;
     text-transform: uppercase;
 }
+
+.avatar{
+  vertical-align: middle;
+  width: 26%;
+  height: 26%;
+  border-radius: 50%;    
+}
+
+.bio{
+    background: rgba(239, 224, 162, 0.2);
+    width: 100%;
+    margin: 7px;
+    padding: 7px;
+   
+
+}
+
+.profile-container{
+    width: 100%;    
+    margin: 0 auto;
+    z-index: -1;
+}
+
+.prof{
+    position: inherit; 
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.21);
+    max-width: 70%;
+    margin:  0 auto;
+    
+    text-align: center;
+    
+}
+
+.prof button{
+    font-family: "Dosis", sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    outline: 0;
+    background: #AE9D55;
+    color: white;
+    width: 40%;
+    border: 0;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.prof button:hover, prof button:active {
+    text-transform: uppercase;
+    background: #AE9D15;
